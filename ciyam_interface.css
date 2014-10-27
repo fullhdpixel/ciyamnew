@@ -1111,7 +1111,7 @@ white-space: nowrap;
 }
 
 
-/* fullhdpixel ruined this*/
+/*fullhdpixel*/
 .width-fix {
 width: 100% !important;
 }
@@ -1174,6 +1174,21 @@ font-weight: 600;
 .grayed {
 font-weight: 500;
 color: #222;
+}
+
+.width-fix-view {
+max-width: 97.8%;
+}
+
+.list-style {
+max-width: 99.9% !important;
+border-left: 1px solid #E5E5E5;
+border-right: 1px solid #E5E5E5;
+}
+
+.list-style-bottom {
+margin-left: 1px !important;
+border-top: 1px solid #E5E5E5;
 }
 
 .border-extra {

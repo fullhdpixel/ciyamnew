@@ -1122,7 +1122,8 @@ table table th
 
 .stylebottom
 {
-   margin-left: 1px !important;
+   margin-left: 0px !important;
+   background-color: #eee !important;
    border-top: 1px solid #e5e5e5;
 }
 
@@ -1197,6 +1198,8 @@ border: 1px solid #bbb;
 {
 max-width: 97.8%;
 }
+
+
 /*fullhdpixel*/
 
 @media screen

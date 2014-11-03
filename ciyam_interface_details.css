@@ -1179,6 +1179,16 @@ table table th
    border: 1px solid #bbb;
 }
 
+/* fullhdpixel */
+.specialborder-buttons
+{
+   background-color: #ddd;
+   padding: 50px 10px 10px 10px;
+   border: 1px solid #bbb;
+}
+
+/* fullhdpixel */
+
 .width-fix-view
 {
    max-width: 97.8%;
@@ -1217,11 +1227,8 @@ table table th
 }
 
 /*fullhdpixel*/
-.max-height {
-height: 30px;
-}
-
 .moveupdown {
+min-height: 40px;
 margin-top: -35px;
 margin-left: 15px;
 }

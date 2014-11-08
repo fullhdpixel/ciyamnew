@@ -980,7 +980,7 @@ td.larger
 
 .right-relative
 {
-   float: right;
+   float: right !important;
    position: relative;
 }
 
@@ -1292,6 +1292,7 @@ table table th
 
 .table-row #list-actions
 {
+   padding-bottom: 15px;
    white-space: nowrap;
    vertical-align: middle;
 }
@@ -1304,14 +1305,18 @@ table table th
 
 .table-row .message
 {
-   padding-right: 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin: auto;
    line-height: 100%;
+   width: 100%;
+   vertical-align: middle;
+   height: 50px;
 }
 
 .table-row .right-relative
-{   
-   margin-top: 1px;
-   top: 25px;
+{
+   padding-top: 58px;
 }
 /* fullhdpixel */
 
